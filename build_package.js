@@ -78,7 +78,7 @@ process.on('unhandledRejection', error => {
       },
       deb: {
         depends: [
-          'gconf2', 'gconf-service', 'libnotify4', 'libappindicator1',
+          'libnotify4',
           'libxtst6', 'libnss3', 'libxss1', "postgresql-client"
         ],
         synopsis: "PostgreSQL desktop client"
